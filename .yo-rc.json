@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.3",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "hr-chat-bot",
+    "libraryId": "cd4f96d0-85a2-4bc3-88c1-3acfbf51528b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "HR Chat Bot",
+    "solutionShortDescription": "HR Chat Bot description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

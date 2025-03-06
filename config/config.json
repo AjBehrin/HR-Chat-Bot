@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hr-chat-bot-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hrChatBot/HrChatBotWebPart.js",
+          "manifest": "./src/webparts/hrChatBot/HrChatBotWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HrChatBotWebPartStrings": "lib/webparts/hrChatBot/loc/{locale}.js"
+  }
+}

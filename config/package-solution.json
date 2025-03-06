@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hr-chat-bot-client-side-solution",
+    "id": "cd4f96d0-85a2-4bc3-88c1-3acfbf51528b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "HR Chat Bot description"
+      },
+      "longDescription": {
+        "default": "HR Chat Bot description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hr-chat-bot Feature",
+        "description": "The feature that activates elements of the hr-chat-bot solution.",
+        "id": "724ed252-bd64-43e0-8c71-2da91f82ca8f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hr-chat-bot.sppkg"
+  }
+}
