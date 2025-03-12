@@ -16,7 +16,10 @@ export default class HrChatBotWebPart extends BaseClientSideWebPart<IHrChatBotWe
   public render(): void {
     const element: React.ReactElement<IHrChatBotProps> = React.createElement(
       HrChatBot,
-      {}
+      {
+        context: this.context,
+        domElement: this.domElement
+      }
     );
 
     ReactDom.render(element, this.domElement);

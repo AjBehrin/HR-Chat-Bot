@@ -3,7 +3,7 @@
   "solution": {
     "name": "hr-chat-bot-client-side-solution",
     "id": "cd4f96d0-85a2-4bc3-88c1-3acfbf51528b",
-    "version": "1.0.0.0",
+    "version": "1.0.1.1",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -31,6 +31,20 @@
         "description": "The feature that activates elements of the hr-chat-bot solution.",
         "id": "724ed252-bd64-43e0-8c71-2da91f82ca8f",
         "version": "1.0.0.0"
+      }
+    ],
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Files.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Sites.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read"
       }
     ]
   },
